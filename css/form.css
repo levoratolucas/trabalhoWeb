@@ -1,0 +1,33 @@
+
+#container-1{
+   color: white;
+    padding: 10px;
+    position: relative;
+    height: 80vh;    
+}
+#conteudo{
+    opacity: 0.8;
+    width:60%;
+    max-width: 390px;
+    padding: 10px;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50% ;
+    border-radius: 30%;
+    border: 2px solid yellow;
+    box-shadow:0 0 10px white;
+    transition: 300ms;
+}
+
+#conteudo:hover{
+    box-shadow:0 0 10px  yellow,
+    0 0 20px  white,
+    0 0 30px  white;
+    opacity: 1;
+    transform: translate(-50%,-50%) scale(1.1);
+    
+}

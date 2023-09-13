@@ -1,0 +1,36 @@
+
+
+.grid{
+    
+    width: 50%;
+    height: 600px;
+    margin-inline: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.grid_uni{
+    color: aliceblue;
+    align-items: center;
+    display: grid;
+    margin: 6px;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0 0 10px white;
+    border:solid black 2px ;
+    max-width: 200px;
+    transition:ease-in-out 300ms;
+    
+    
+}
+
+.grid_uni:hover{
+    box-shadow:0 0 10px  yellow,
+    0 0 20px  white,
+    0 0 30px  white;
+    
+    transform: scale(1.1) ;
+}

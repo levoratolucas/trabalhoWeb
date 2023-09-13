@@ -1,0 +1,118 @@
+header{
+    
+    
+    background-color: black;
+    
+    color: rgb(0, 136, 255);
+    
+     
+}
+.nav{
+    
+    max-width: 1280;
+    height: 70px;
+    display: flex ;
+    margin-inline: auto;
+    justify-content: space-between;
+    
+    
+    
+}
+
+
+
+
+
+
+.matriz1{
+    left: 2%;
+    
+    
+    position: absolute;
+    animation: anima2 0s linear infinite;
+    top: 5px;
+    
+   
+    
+}
+.matriz2{
+    left: 12%;
+    
+    
+    position: absolute;
+    animation: anima2 0s linear infinite;
+    top: 5px;
+   
+    
+}
+.matriz3{
+    left: 22%;
+    top: 5px;
+    
+    position: absolute;
+    animation: anima2 0s linear infinite;
+    
+   
+    
+}
+.matriz4{
+    left: 32%;
+    top: 5px;
+    
+    position: absolute;
+    animation: anima2 0s linear infinite;
+    
+   
+    
+}
+@keyframes anima {
+    0% {
+        transform: rotatey(0deg); /* Inicialmente acima do centro */
+    }
+    
+      
+    100% {
+        transform: rotatey(360deg); /* De volta ao topo */
+    }
+}
+
+.eixo{
+    
+    background-color: transparent;
+    width: 30px; 
+    height: 30px;/*tamanho do cubo, se alterado é necessario alterar as traslatex pra metade do valor que adicionou */
+    position: absolute;
+    transform-style: preserve-3d;
+    justify-content: center;
+    align-items: center;
+    animation: anima 10s linear infinite;
+    
+    
+}
+.eixo>div{
+    position: absolute;
+    
+       
+}
+.lado1{
+     
+    
+    transform: rotatey(90deg) translatez(15px);
+    
+    
+}
+.lado2{
+    transform: rotatey(-90deg) translatez(15px);
+    
+    
+}
+.lado3{
+    transform: translateZ(15px);
+    
+}
+.lado4{
+    border-radius: 50%;
+    transform: rotateY(180deg)  translateZ(15px);
+    
+    
+}
